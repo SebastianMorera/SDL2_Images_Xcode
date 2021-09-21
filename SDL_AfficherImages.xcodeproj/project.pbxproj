@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD58790626D474A900639DE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD58790526D474A900639DE9 /* AppDelegate.m */; };
+		CD3B18DE26D7E4CF00D6EA06 /* sdl_icone.bmp in Resources */ = {isa = PBXBuildFile; fileRef = CD3B18DD26D7E4CF00D6EA06 /* sdl_icone.bmp */; };
 		CD58790826D474AC00639DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD58790726D474AC00639DE9 /* Assets.xcassets */; };
-		CD58790B26D474AC00639DE9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD58790926D474AC00639DE9 /* MainMenu.xib */; };
-		CD58790E26D474AC00639DE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD58790D26D474AC00639DE9 /* main.m */; };
+		CD58791626D475F400639DE9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = CD58791526D475F400639DE9 /* main.c */; };
+		CD58792026D4877000639DE9 /* kunfuPanda.bmp in Resources */ = {isa = PBXBuildFile; fileRef = CD58791F26D4877000639DE9 /* kunfuPanda.bmp */; };
+		CD58792226D4893300639DE9 /* lac_en_montagne.bmp in Resources */ = {isa = PBXBuildFile; fileRef = CD58792126D4893300639DE9 /* lac_en_montagne.bmp */; };
+		CD6FF61B26F982D700EDA158 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6FF61A26F982D700EDA158 /* SDL2.framework */; };
+		CD6FF61C26F982D700EDA158 /* SDL2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD6FF61A26F982D700EDA158 /* SDL2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CD6FF61E26F982ED00EDA158 /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6FF61D26F982ED00EDA158 /* SDL2_image.framework */; };
+		CDE09F0826DC6577008CE5FB /* zozor.bmp in Resources */ = {isa = PBXBuildFile; fileRef = CDE09F0726DC6577008CE5FB /* zozor.bmp */; };
+		CDE09F0A26DC7109008CE5FB /* sapin.png in Resources */ = {isa = PBXBuildFile; fileRef = CDE09F0926DC7109008CE5FB /* sapin.png */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		CD58791B26D4764900639DE9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CD6FF61C26F982D700EDA158 /* SDL2.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		CD3B18DD26D7E4CF00D6EA06 /* sdl_icone.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = sdl_icone.bmp; sourceTree = SOURCE_ROOT; };
 		CD58790126D474A900639DE9 /* SDL_AfficherImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDL_AfficherImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD58790426D474A900639DE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CD58790526D474A900639DE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CD58790726D474AC00639DE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CD58790A26D474AC00639DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		CD58790C26D474AC00639DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD58790D26D474AC00639DE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD58790F26D474AC00639DE9 /* SDL_AfficherImages.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SDL_AfficherImages.entitlements; sourceTree = "<group>"; };
+		CD58791526D475F400639DE9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		CD58791F26D4877000639DE9 /* kunfuPanda.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = kunfuPanda.bmp; sourceTree = "<group>"; };
+		CD58792126D4893300639DE9 /* lac_en_montagne.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = lac_en_montagne.bmp; sourceTree = "<group>"; };
+		CD6FF61A26F982D700EDA158 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		CD6FF61D26F982ED00EDA158 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2_image.framework; sourceTree = "<group>"; };
+		CDE09F0726DC6577008CE5FB /* zozor.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = zozor.bmp; sourceTree = SOURCE_ROOT; };
+		CDE09F0926DC7109008CE5FB /* sapin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sapin.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD6FF61B26F982D700EDA158 /* SDL2.framework in Frameworks */,
+				CD6FF61E26F982ED00EDA158 /* SDL2_image.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +66,7 @@
 			children = (
 				CD58790326D474A900639DE9 /* SDL_AfficherImages */,
 				CD58790226D474A900639DE9 /* Products */,
+				CD58791726D4764900639DE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,15 +81,26 @@
 		CD58790326D474A900639DE9 /* SDL_AfficherImages */ = {
 			isa = PBXGroup;
 			children = (
-				CD58790426D474A900639DE9 /* AppDelegate.h */,
-				CD58790526D474A900639DE9 /* AppDelegate.m */,
 				CD58790726D474AC00639DE9 /* Assets.xcassets */,
-				CD58790926D474AC00639DE9 /* MainMenu.xib */,
 				CD58790C26D474AC00639DE9 /* Info.plist */,
-				CD58790D26D474AC00639DE9 /* main.m */,
 				CD58790F26D474AC00639DE9 /* SDL_AfficherImages.entitlements */,
+				CD58791526D475F400639DE9 /* main.c */,
+				CDE09F0926DC7109008CE5FB /* sapin.png */,
+				CDE09F0726DC6577008CE5FB /* zozor.bmp */,
+				CD58791F26D4877000639DE9 /* kunfuPanda.bmp */,
+				CD3B18DD26D7E4CF00D6EA06 /* sdl_icone.bmp */,
+				CD58792126D4893300639DE9 /* lac_en_montagne.bmp */,
 			);
 			path = SDL_AfficherImages;
+			sourceTree = "<group>";
+		};
+		CD58791726D4764900639DE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD6FF61A26F982D700EDA158 /* SDL2.framework */,
+				CD6FF61D26F982ED00EDA158 /* SDL2_image.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -75,6 +113,7 @@
 				CD5878FD26D474A900639DE9 /* Sources */,
 				CD5878FE26D474A900639DE9 /* Frameworks */,
 				CD5878FF26D474A900639DE9 /* Resources */,
+				CD58791B26D4764900639DE9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -121,8 +160,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD58792226D4893300639DE9 /* lac_en_montagne.bmp in Resources */,
+				CD58792026D4877000639DE9 /* kunfuPanda.bmp in Resources */,
+				CDE09F0826DC6577008CE5FB /* zozor.bmp in Resources */,
+				CD3B18DE26D7E4CF00D6EA06 /* sdl_icone.bmp in Resources */,
 				CD58790826D474AC00639DE9 /* Assets.xcassets in Resources */,
-				CD58790B26D474AC00639DE9 /* MainMenu.xib in Resources */,
+				CDE09F0A26DC7109008CE5FB /* sapin.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,23 +176,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD58790E26D474AC00639DE9 /* main.m in Sources */,
-				CD58790626D474A900639DE9 /* AppDelegate.m in Sources */,
+				CD58791626D475F400639DE9 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		CD58790926D474AC00639DE9 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CD58790A26D474AC00639DE9 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CD58791026D474AC00639DE9 /* Debug */ = {
@@ -189,6 +220,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -248,6 +280,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -268,9 +301,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CODE_SIGN_ENTITLEMENTS = SDL_AfficherImages/SDL_AfficherImages.entitlements;
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = /Library/Frameworks/SDL2_image.framework/Headers;
 				INFOPLIST_FILE = SDL_AfficherImages/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -286,9 +327,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CODE_SIGN_ENTITLEMENTS = SDL_AfficherImages/SDL_AfficherImages.entitlements;
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = /Library/Frameworks/SDL2_image.framework/Headers;
 				INFOPLIST_FILE = SDL_AfficherImages/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
